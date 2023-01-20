@@ -1,0 +1,7 @@
+{application, flexi, [
+    {description, "flexi: distributed application controller"},
+    {vsn, "0.1.0"},
+    {registered, []},
+    {applications, [kernel, stdlib,sasl]},
+    {env, []}
+]}.
